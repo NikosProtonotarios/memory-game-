@@ -2,12 +2,34 @@ body {
     text-align: center;
     background-color: #011F3F;
   }
+
+  .short-title {
+    font-family: 'Press Start 2P', cursive;
+    color: #FEF2BF;
+  }
   
   #level-title {
     font-family: 'Press Start 2P', cursive;
     font-size: 3rem;
     margin:  5%;
     color: #FEF2BF;
+    border: 7px solid black;
+    background-color: rgb(145, 94, 94);
+    border-radius: 20px;
+    padding: 20px;
+    transition: 0.2s;
+    line-height: 1.5;
+  }
+
+  #level-title:hover {
+    cursor: pointer;
+    background-color: #9c8892;
+  }
+
+  #level-title:active {
+    background-color: #7e6f6f; /* Darker shade for "pressed" look */
+    transform: scale(0.98); /* Slightly shrink the button */
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.3);
   }
   
   .container {
